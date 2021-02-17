@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  1st assignment
-//
-//  Created by Povilas Laisevcevas on 2021-02-14.
-//  Copyright © 2021 Povilas Laisevcevas. All rights reserved.
-//
 
 #include <iostream>
 #include <string>
@@ -12,10 +5,18 @@ using namespace std;
 
 int main() {
     string vardo_eilute, vardas;
-    vardo_eilute = "* Sveiki, ";
     
     cout<<"Iveskite savo varda: ";
     cin>>vardas;
+    
+    if (vardas.back() == 'a') {
+        vardo_eilute = "* Sveika, ";
+    } else if (vardas.back() == 'e'){
+        vardo_eilute = "* Sveika, ";
+    } else {
+        vardo_eilute = "* Sveikas, ";
+    }
+    
     vardo_eilute += vardas + "! *";
     
     char plotis = vardo_eilute.size();
