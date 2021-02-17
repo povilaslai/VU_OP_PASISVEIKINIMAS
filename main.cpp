@@ -5,10 +5,18 @@ using namespace std;
 
 int main() {
     string vardo_eilute, vardas;
-    vardo_eilute = "* Sveiki, ";
     
     cout<<"Iveskite savo varda: ";
     cin>>vardas;
+    
+    if (vardas.back() == 'a') {
+        vardo_eilute = "* Sveika, ";
+    } else if (vardas.back() == 'e'){
+        vardo_eilute = "* Sveika, ";
+    } else {
+        vardo_eilute = "* Sveikas, ";
+    }
+    
     vardo_eilute += vardas + "! *";
     
     char plotis = vardo_eilute.size();
