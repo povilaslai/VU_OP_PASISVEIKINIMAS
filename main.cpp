@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  1st assignment
-//
-//  Created by Povilas Laisevcevas on 2021-02-14.
-//  Copyright © 2021 Povilas Laisevcevas. All rights reserved.
-//
 
 #include <iostream>
 #include <string>
