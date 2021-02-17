@@ -1,1 +1,2 @@
-# programavimas_1
+# VU OBJEKTINIO PROGRAMAVIMO UŽDUOTIS #1
+
